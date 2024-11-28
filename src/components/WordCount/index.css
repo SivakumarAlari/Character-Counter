@@ -1,0 +1,66 @@
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub-container {
+  height: 70vh;
+  width: 85vw;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.yellow-container {
+  height: 65vh;
+  width: 42vw;
+  background-color: #ffc533;
+  border-radius: 5px;
+}
+.black-container {
+  height: 65vh;
+  width: 42vw;
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+}
+.empty-image {
+  height: 40vh;
+  width: 40vw;
+}
+.count-Character {
+  font-size: 35px;
+  font-family: 'Roboto';
+  color: #334155;
+  margin-left: 3vw;
+}
+.character-heading {
+  font-size: 32px;
+  color: #ffbf1f;
+  font-family: 'Roboto';
+  margin-top: 25px;
+}
+.inputDesign {
+  height: 40px;
+  width: 290px;
+  background-color: white;
+  border: 0px;
+  border-radius: 7px;
+  margin-right: 7px;
+  margin-top: 25px;
+}
+.add-btn {
+  height: 40px;
+  width: 100px;
+  border: 0px;
+  border-radius: 7px;
+  background-color: #ffbf1f;
+  color: #0f172a;
+}
